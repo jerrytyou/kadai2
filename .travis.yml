@@ -1,6 +1,6 @@
 language: bash
 script:
-  - ./test1.sh
-  - ./test2.sh
-  - ./test3.sh
-  - ./test4.sh
+  - ./text1.sh
+  - ./text2.sh
+  - ./text3.sh
+  - ./text4.sh
