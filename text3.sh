@@ -9,7 +9,7 @@ ERROR_EXIT () {
 }
 
 echo "USAGE:./kadai2.sh int1 int2" > $tmp-ans
-./kadai2.sh 33 11 > $tmp-err || ERROR_EXIT "TEST3-1"
+./kadai2.sh 33 ii > $tmp-err || ERROR_EXIT "TEST3-1"
 diff $tmp-ans $tmp-err || ERROR_EXIT "TEST3-2"
  
 echo OK
